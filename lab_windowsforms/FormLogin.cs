@@ -72,6 +72,13 @@ namespace lab_windowsforms
             {
                 MessageBox.Show("Usuário NÂO encontrado!", "ATENÇÃO", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
+            else
+            {
+                MessageBox.Show($"Bem-Vindo, {usuarioEncontrado.Nome}");
+
+                FrmMenuPrincipal frmMenu = new FrmMenuPrincipal();
+                frmMenu.Show();
+            }
 
         }
 
