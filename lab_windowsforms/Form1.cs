@@ -18,20 +18,6 @@ namespace lab_windowsforms
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
-        {
-
-            sortColor();
-
-            ProgressBar.Value += 1;
-
-            if (ProgressBar.Value >= ProgressBar.Maximum)
-            {
-                ProgressBar.Value = 0;
-            }
-
-
-        }
 
         private void sortColor()
         {
@@ -42,14 +28,6 @@ namespace lab_windowsforms
             int indice = sorteio.Next(colors.Length);
 
             this.BackColor = colors[indice];
-        }
-
-       
-        private void progressBar1_Click(object sender, EventArgs e)
-        {
-            ProgressBar.Minimum = 0;
-            ProgressBar.Maximum = 100;
-            ProgressBar.Value = 0;
         }
 
         
