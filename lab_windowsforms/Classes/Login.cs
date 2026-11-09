@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace lab_windowsforms.Classes
 {
-    internal class Login
+    public class Login
     {
 
         private int _id;

@@ -24,9 +24,9 @@ namespace lab_windowsforms
         private void FormLogin_Load(object sender, EventArgs e)
         {
 
-            Login user1 = new Login(1, "adm01@gmail.com", "admin01", "Administrador");
-            Login user2 = new Login(1, "adm02@gmail.com", "admin02", "Operador");
-            Login user3 = new Login(1, "adm03@gmail.com", "admin03", "Operador");
+            Login user1 = new Login(1, "Daniel", "adm01@gmail.com", "admin01", "Administrador");
+            Login user2 = new Login(1, "Erick", "adm02@gmail.com", "admin02", "Operador");
+            Login user3 = new Login(1, "Vinicios", "adm03@gmail.com", "admin03", "Operador");
 
             usuarios.Add(user1);
             usuarios.Add(user2);
@@ -76,7 +76,7 @@ namespace lab_windowsforms
             {
                 MessageBox.Show($"Bem-Vindo, {usuarioEncontrado.Nome}");
 
-                FrmMenuPrincipal frmMenu = new FrmMenuPrincipal();
+                FormMenuPrincipal frmMenu = new FormMenuPrincipal();
                 frmMenu.Show();
             }
 

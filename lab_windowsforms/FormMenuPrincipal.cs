@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace lab_windowsforms
 {
-    public partial class FrmMenuPrincipal : Form
+    public partial class FormMenuPrincipal : Form
     {
-        public FrmMenuPrincipal()
+        public FormMenuPrincipal()
         {
             InitializeComponent();
         }

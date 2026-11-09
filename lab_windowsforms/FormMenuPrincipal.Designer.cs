@@ -1,6 +1,6 @@
 ﻿namespace lab_windowsforms
 {
-    partial class FrmMenuPrincipal
+    partial class FormMenuPrincipal
     {
         /// <summary>
         /// Required designer variable.
